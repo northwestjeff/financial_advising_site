@@ -1,0 +1,47 @@
+
+
+nav {
+    background-color: orangered;
+}
+
+nav li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: darkslategrey;
+}
+
+
+.bg-grey {
+    background-color: lightgray;
+
+}
+
+.jumbotron {
+    background-color: orangered;
+    color: white;
+    padding: 100px 25px;
+}
+
+#about {
+    background-image: url("/static/site_app/images/woman-outdoors.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.about-text h4 {
+    background-color: lightgray;
+
+}
+
+.mid-section {
+    padding: 100px 25px;
+}
+
+.logo-small {
+    color: orangered;
+    font-size: 35px;
+}
