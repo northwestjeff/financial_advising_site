@@ -23,6 +23,7 @@ nav li a:hover {
     background-color: orangered;
     color: white;
     padding: 100px 25px;
+    margin: 0;
 }
 
 #about {
