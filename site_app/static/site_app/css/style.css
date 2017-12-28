@@ -4,14 +4,28 @@ nav {
     background-color: orangered;
 }
 
-nav li a:link {
+nav a: {
+    color: white;
+}
+
+nav a:link {
     color: white;
     text-decoration: none;
 }
 
-nav li a:hover {
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
     color: darkslategrey;
 }
+#logo {
+    margin: 15px;
+    padding: 0;
+}
+
 
 
 .bg-grey {
@@ -45,4 +59,9 @@ nav li a:hover {
 .logo-small {
     color: orangered;
     font-size: 35px;
+}
+
+
+.about-text {
+
 }

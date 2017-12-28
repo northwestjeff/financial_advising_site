@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>ConAlum Education Services</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,10 +15,12 @@
 </head>
 <body>
 
+
+{#NAVBAR#}
 <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand">Company Name</a>
+            <a href="#" class="navbar-brand glyphicon glyphicon-queen" id="logo"></a>
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"> Home</a></li>
@@ -30,106 +32,25 @@
     </div>
 </nav>
 
-
+{#JUMBOTRON#}
 <div class="jumbotron text-center">
     <h1>
-        hello
+        ConAlum Education Services
     </h1>
     <p>
-        there.
+        We empower students, alumni, and organizations to tackle their student loan debt through training, advising, and
+        consulting
     </p>
 </div>
 
-<div class="container-fluid mid-section text-right" id="about">
-    <h2 class="about-text">
-        about
-    </h2>
-    <h4 class="about-text">
-        the company
-    </h4>
-    <p class="about-text">
-        for real tho.
-    </p>
-</div>
+{#ABOUT#}
+{% include 'site_app/about.html' %}
+
 {#SERVICES SECTION#}
-<div class="container-fluid bg-grey text-center mid-section">
-    <h2>
-        What we offer
-    </h2>
-    <h4>
-        to you.
-    </h4>
-    <div class="row" id="top-row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-off logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-cloud logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-road logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-    </div>
-    <div class="row" id="bottom-row">
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-off logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-cloud logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-        <div class="col-sm-4">
-            <span class="glyphicon glyphicon-road logo-small"></span>
-            <h4>
-                BLAH
-            </h4>
-            <p>
-                Lorem ipsum cats scratch post
-            </p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid mid-section text-center">
-    <h2>Contact Information</h2>
-    <p>Reach out!  Let us know how we can help.</p>
-    <div class="row text-left">
-        <div class="col-sm-5">
-            <p><span class="glyphicon glyphicon-envelope"></span>  555.555.5555</p>
-            <p><span class="glyphicon glyphicon-phone"></span>  email@email.com</p>
-        </div>
-    </div>
+{% include 'site_app/services.html' %}
 
-</div>
-
+{#CONTACT SECTION#}
+{% include 'site_app/contact.html' %}
 
 
 </body>
